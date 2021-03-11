@@ -31,6 +31,7 @@ body {
 }
 .layer-4 {
     background-image: url('../images/ilu_01.png');
+    position: sticky;
 }
 .text {
     position: relative;

@@ -26,4 +26,16 @@
         <p>Creating parallax effect</p>
     </section>
 </body>
+<script>
+    var lay1 = document.getElementsByClassName("layer-1")[0];
+    var lay2 = document.getElementsByClassName("layer-2")[0];
+    var lay3 = document.getElementsByClassName("layer-man")[0];
+
+    window.onscroll = () => {
+        lay1.style.top = -window.scrollY * 0.3 + "px";
+        lay2.style.top = -window.scrollY * 0.6 + "px";
+        lay3.style.left = -window.scrollY * 0.4 + "px";
+        lay3.style.top = -window.scrollY * 1 + "px";
+    }
+</script>
 </html>
